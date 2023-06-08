@@ -1,0 +1,16 @@
+.container {
+    justify-content: space-between;
+    padding: 16px 32px
+}
+
+.logoContainer {
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText {
+    font-family: "inter-semi";
+    font-size: 27px;
+    line-height: 33px;
+    text-decoration: none;
+}
