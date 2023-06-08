@@ -21,6 +21,10 @@
     grid-column-gap: 30px
 }
 
+.gap50 {
+    grid-column-gap: 50px
+}
+
 
 
 
@@ -47,9 +51,18 @@
 html {
     font-family: 'inter-regular', 'Times New Roman', Times, serif;
     color: #F0EDE2;
-    
+    background-color: #1C1718;
 }
 
 a {
     color: #F0EDE2
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0
 }
