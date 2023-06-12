@@ -1,16 +1,6 @@
 <app-navbar></app-navbar>
 <div class="container" >
-  <div class="containerBackground" >
-    <!-- <button (click)="execGetPeople()" mat-raised-button>Basic</button> -->
-    <div *ngIf="isLoading$ | async">
-      <div style="color:white; font-size: 100px;" >loading</div>
-   </div>
-   <div *ngIf="(people$ | async) as people">
-    <div *ngFor="let person of people">
-      {{ person.name }}
-    </div>
+  <div>
+    <router-outlet></router-outlet>
   </div>
-   <!-- <button (click)="printPeople()"  mat-raised-button>Log</button> -->
-  </div>
-  
 </div>

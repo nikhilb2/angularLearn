@@ -13,12 +13,16 @@ import { EffectsModule } from '@ngrx/effects';
 import { SwapiEffects } from 'src/redux/swapi/swapi.effects';
 import { SwapiService } from 'src/redux/swapi/swapi.service';
 import { HttpClientModule } from '@angular/common/http';
+import { TestPageComponent } from './test-page/test-page.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    TestPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
